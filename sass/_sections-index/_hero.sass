@@ -1,0 +1,72 @@
+.hero__slider
+	position: relative
+	margin-bottom: 60px
+	@media (max-width: $lg)
+		margin-bottom: 40px
+	@media (max-width: $md)
+		margin-bottom: 30px
+	@media (max-width: $sm)
+		margin-bottom: 25px
+	.swiper-slide
+		height: 100%
+		img
+			min-height: 580px
+
+	&-info
+		position: absolute
+		top: 47%
+		left: 50%
+		transform: translate(-50%, -50%)
+		z-index: 10
+		text-align: center
+		@media (max-width: $md)
+			width: 100%
+			top: 45%
+	&-body
+		width: 650px
+		@media (max-width: $md)
+			width: 80%
+			margin: 0 auto
+		@media (max-width: $xsm)
+			width: 90%
+		.title-1
+			span
+				font-weight: 400
+		p
+			font-size: 30px
+			line-height: 40px
+			color: $white
+			margin-bottom: 38px
+			@media (max-width: $md)
+				font-size: 24px
+				line-height: 34px
+				margin-bottom: 35px
+			@media (max-width: $xsm)
+				font-size: 20px
+				line-height: 30px
+	.swiper-pagination
+		width: 100%
+		position: absolute
+		z-index: 10
+		height: 50px
+		bottom: 7px
+		text-align: center
+		display: flex
+		justify-content: center
+		align-items: center
+	.swiper-pagination-bullet
+		background-color: #F0F0F0!important
+		opacity: 1!important
+		width: 14px
+		height: 14px
+		border-radius: 50%
+		margin: 0 8px!important
+		position: relative
+		bottom: 0px
+		left: 0
+		cursor: pointer
+		outline: none
+	&:focus
+		outline: none
+	.swiper-pagination-bullet-active
+		background-color: $black!important

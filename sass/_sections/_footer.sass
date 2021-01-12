@@ -1,0 +1,48 @@
+/* ----- footer ----- */
+.footer
+	border: 1px solid rgba(255, 255, 255, 0.25)
+	background-color: #000
+	&__wrap
+		padding: 55px 0
+		display: flex
+		justify-content: space-between
+		align-items: center
+		@media (max-width: $md)
+			flex-wrap: wrap
+			padding: 40px 0
+			justify-content: space-evenly
+	a
+		transition: all ease .2s
+		&:hover
+			color: darken($white, 20%)
+	&__left
+		display: flex
+		@media (max-width: $md)
+			order: 2
+			margin-bottom: 20px
+		.g-link
+			display: flex
+			align-items: center
+		.g-small-text
+			color: $white
+		svg
+			margin-right: 7px
+	&__center
+		@media (max-width: $md)
+			order: 1
+			margin-bottom: 20px
+		.title-logo
+			color: $white
+	&__right
+		@media (max-width: $md)
+			flex: 0 1 100%
+			order: 3
+			display: flex
+			justify-content: space-evenly
+		a
+			color: $white
+			text-decoration: underline
+			margin-right: 35px
+			font-size: 14px
+			&:last-child
+				margin-right: 0

@@ -1,0 +1,23 @@
+.works
+	overflow: hidden
+	width: 100%
+	.title-2
+		margin-bottom: 45px
+	&__slider
+		width: 85%
+		margin: 0 auto
+		text-align: center
+		@media (max-width: $md)
+			width: 100%
+			padding: 0 10px
+	.swiper-container
+		overflow: visible!important
+		@media (max-width: $md)
+			overflow: hidden!important
+	.swiper-slide
+		position: static
+		img
+			width: 100%
+			height: 100%
+			object-fit: cover
+			object-position: center

@@ -1,0 +1,26 @@
+/* ----- header ----- */
+.header
+	&__row
+		padding: 30px 0
+		display: flex
+		justify-content: space-between
+		align-items: center
+		@media (max-width: $sm)
+			padding: 20px 0
+	&__left
+		display: flex
+		justify-content: center
+		align-items: center
+		.g-link
+			display: inline-flex
+			align-items: center
+			svg
+				margin-right: 7px
+			span
+				@media (max-width: $sm)
+					display: none
+		.title-logo
+			margin-right: 25px
+			@media (max-width: 370px)
+				margin-right: 10px
+	&__right
