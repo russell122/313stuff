@@ -14,7 +14,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#000">
     <link rel="preload" href="fonts/BwModelica-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;display=swap" onload="this.rel='stylesheet'" as="style">
+    <link rel="preload" href="css/styles.css" onload="this.rel='stylesheet'" as="style" type="text/css">
   </head>
   <body> 
     <div class="page">
@@ -36,10 +37,26 @@
       <!-- hero-->
       <section class="swiper-container hero hero__slider">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img class="img--cover" src="img/top-slider__bg.jpg" alt="top-slider__bg"></div>
-          <div class="swiper-slide"><img class="img--cover" src="img/top-slider__bg.jpg" alt="top-slider__bg"></div>
-          <div class="swiper-slide"><img class="img--cover" src="img/top-slider__bg.jpg" alt="top-slider__bg"></div>
-          <div class="swiper-slide"><img class="img--cover" src="img/top-slider__bg.jpg" alt="top-slider__bg"></div>
+          <div class="swiper-slide">
+            <picture>
+              <source srcset="img/top-slider__bg.webp" type="image/webp"><img class="img--cover" src="img/top-slider__bg.jpg" alt="top-slider__bg">
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source srcset="img/top-slider__bg.webp" type="image/webp"><img class="img--cover" src="img/top-slider__bg.jpg" alt="top-slider__bg">
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source srcset="img/top-slider__bg.webp" type="image/webp"><img class="img--cover" src="img/top-slider__bg.jpg" alt="top-slider__bg">
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source srcset="img/top-slider__bg.webp" type="image/webp"><img class="img--cover" src="img/top-slider__bg.jpg" alt="top-slider__bg">
+            </picture>
+          </div>
         </div>
         <div class="hero__slider-info">
           <div class="hero__slider-body">
@@ -60,14 +77,20 @@
                 <p class="g-galary__right-ind">We spent hundreds of hours to sort our sets by visual similarity</p>
               </div>
             </div>
-            <div class="g-galary__right"><a class="open-magn" href="img/img-1.png"><img class="img" src="img/img-1.png" alt="img-1"></a></div>
+            <div class="g-galary__right"><a class="open-magn" href="img/img-1.png">
+                <picture>
+                  <source srcset="img/img-1.webp" type="image/webp"><img class="img" src="img/img-1.png" alt="img-1">
+                </picture></a></div>
           </div>
         </div>
       </section>
       <section class="sets g-galary-ind">
         <div class="container">
           <div class="g-galary">
-            <div class="g-galary__right g-galary-order-2"><a class="open-magn" href="img/img-2.png"><img class="img" src="img/img-2.png" alt="img-2"></a></div>
+            <div class="g-galary__right g-galary-order-2"><a class="open-magn" href="img/img-2.png">
+                <picture>
+                  <source srcset="img/img-2.webp" type="image/webp"><img class="img" src="img/img-2.png" alt="img-2">
+                </picture></a></div>
             <div class="g-galary__left g-galary-order-1 g-galary-flex-end">
               <div class="g-galary__body">
                 <h3 class="title-3">Compact sets</h3>
@@ -86,7 +109,10 @@
                 <p class="g-galary__right-ind">Download RAW files and change the source file on your demand.</p>
               </div>
             </div>
-            <div class="g-galary__right"><a class="open-magn" href="img/img-3.png"><img class="img" src="img/img-3.png" alt="img-3"></a></div>
+            <div class="g-galary__right"><a class="open-magn" href="img/img-3.png">
+                <picture>
+                  <source srcset="img/img-3.webp" type="image/webp"><img class="img" src="img/img-3.png" alt="img-3">
+                </picture></a></div>
           </div>
         </div>
       </section>
@@ -101,10 +127,22 @@
         </div>
         <div class="swiper-container works__slider">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"><a class="open-magn" href="img/gallety__img-2.png"><img class="img" src="img/gallety__img-2.png" alt="gallety__img-2"></a></div>
-            <div class="swiper-slide"><a class="open-magn" href="img/gallety__img-3.png"><img class="img" src="img/gallety__img-3.png" alt="gallety__img-3"></a></div>
-            <div class="swiper-slide"><a class="open-magn" href="img/gallety__img-4.png"><img class="img" src="img/gallety__img-4.png" alt="gallety__img-4"></a></div>
-            <div class="swiper-slide"><a class="open-magn" href="img/gallety__img-4.png"><img class="img" src="img/gallety__img-1.png" alt="gallety__img-1"></a></div>
+            <div class="swiper-slide"><a class="open-magn" href="img/gallety__img-2.png">
+                <picture>
+                  <source srcset="img/gallety__img-2.webp" type="image/webp"><img class="img" src="img/gallety__img-2.png" alt="gallety__img-2">
+                </picture></a></div>
+            <div class="swiper-slide"><a class="open-magn" href="img/gallety__img-3.png">
+                <picture>
+                  <source srcset="img/gallety__img-3.webp" type="image/webp"><img class="img" src="img/gallety__img-3.png" alt="gallety__img-3">
+                </picture></a></div>
+            <div class="swiper-slide"><a class="open-magn" href="img/gallety__img-4.png">
+                <picture>
+                  <source srcset="img/gallety__img-4.webp" type="image/webp"><img class="img" src="img/gallety__img-4.png" alt="gallety__img-4">
+                </picture></a></div>
+            <div class="swiper-slide"><a class="open-magn" href="img/gallety__img-4.png">
+                <picture>
+                  <source srcset="img/gallety__img-1.webp" type="image/webp"><img class="img" src="img/gallety__img-1.png" alt="gallety__img-1">
+                </picture></a></div>
           </div>
         </div>
       </section>
@@ -152,7 +190,7 @@
           <div class="beta__body">
             <h2 class="beta-title-2">Sign up for beta</h2>
             <p class="beta-text">and get access to our randomly changing FREEBIES.</p>
-            <form class="beta__form" action="">
+            <form class="beta__form">
               <input type="email" placeholder="your e-mail">
               <button class="button">Submit for beta</button>
             </form>

@@ -3,7 +3,9 @@ section.sets.g-galary-ind
 		.g-galary
 			.g-galary__right.g-galary-order-2
 				a(href="img/img-2.png").open-magn
-					img.img(src="img/img-2.png", alt="img-2")
+					picture
+						source(srcset="img/img-2.webp" type="image/webp")
+						img.img(src="img/img-2.png", alt="img-2")
 			.g-galary__left.g-galary-order-1.g-galary-flex-end
 				.g-galary__body
 					h3.title-3 Compact sets
