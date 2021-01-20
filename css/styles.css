@@ -1997,7 +1997,7 @@ body input:required:valid, body textarea:required:valid {
 }
 
 .about {
-  background-image: url("../img/unlimited__bg.jpg");
+  background-image: url("../img/unlimited__bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
